@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joepaul Gospel</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Galaxy Background -->
+  <div class="bg-layer">
+    <div class="stars"></div>
+    <div class="nebula"></div>
+    <div class="noise"></div>
+    <div id="shooting-stars"></div>
+  </div>
+
+  <!-- Desktop Navigation -->
+  <nav class="minimal-nav">
+    <a href="#thoughts">Thoughts</a>
+    <a href="#articles">Articles</a>
+    <a href="#works">Works</a>
+    <a href="#gift">Gift</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Mobile Hamburger Button -->
+  <button class="mobile-menu-toggle" aria-label="Menu">
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+    <span class="hamburger-line"></span>
+  </button>
+
+  <!-- Mobile Fullscreen Navigation -->
+  <div class="mobile-nav">
+    <a href="#thoughts">Thoughts</a>
+    <a href="#articles">Articles</a>
+    <a href="#works">Works</a>
+    <a href="#gift">Gift</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-visual">
+          <img src="profile.png.png" alt="Joepaul Gospel" class="profile-img">
+        </div>
+        <div class="hero-text">
+          <h1 class="reveal">Joepaul Gospel</h1>
+          <p class="quote reveal-delay">
+            It's not about me. It's not about you. It's not even about us. It's about legacy. It's about what we choose to leave behind for future generations.
+          </p>
+          <div class="hero-actions reveal-delay-2">
+            <a href="#articles" class="btn">Read Articles</a>
+            <a href="#works" class="btn btn-ghost">View Works</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Thoughts Section -->
+    <section class="section" id="thoughts">
+      <h2 class="section-title reveal">Thoughts</h2>
+      <div class="thoughts-grid" id="thoughts-grid"></div>
+    </section>
+
+    <!-- Articles Section -->
+    <section class="section" id="articles">
+      <h2 class="section-title reveal">Articles</h2>
+      <div class="articles-list" id="articles-list"></div>
+    </section>
+
+    <!-- Works Section -->
+    <section class="section" id="works">
+      <h2 class="section-title reveal">Works</h2>
+      <div class="works-grid" id="works-grid"></div>
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="portfolio.html" class="btn btn-ghost">View Full Portfolio →</a>
+      </div>
+    </section>
+
+    <!-- Gift Panel Section -->
+    <section class="section" id="gift">
+      <div class="gift-panel reveal">
+        <button id="gift-btn" class="btn">Open Gift Panel</button>
+        <div id="gift-message" class="gift-message">
+          <p>Gifts not available now.</p>
+          <p class="gift-sub">Not yet a millionaire.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="contact-inner reveal">
+        <h2>Let's Build</h2>
+        <p>Open to meaningful collaborations. If you're working on something that matters, reach out.</p>
+        <a href="mailto:joepaulgospel9@gmail.com" class="btn">joepaulgospel9@gmail.com</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Joepaul Gospel. Built for legacy.</p>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
